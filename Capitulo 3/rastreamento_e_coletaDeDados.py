@@ -41,3 +41,18 @@ def getLinks(url):
                 getLinks(newPage) #Aplicando a recursão
 
 getLinks('')
+
+
+#UTILIZANDO UMA ALTERNATIVA A EXPRESSÃO REGULAR (REGEX)
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+#Opção alternativa
+
+'''# Encontrar todos os links
+    for link in bs.find_all('a', href=True):
+        if link['href'].startswith('/wiki/'):
+            if link['href'] not in pages:
+                newPage = link['href']
+                print('-'*20)
+                print(newPage)
+                pages.add(newPage)
+                getLinks(newPage) # Aplicando a recursão'''
