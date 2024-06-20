@@ -6,10 +6,15 @@ import sys
 #Aumentando o limite de recursão
 sys.setrecursionlimit(5000)
 
+'''Os sets são uma coleção de itens desordenada, 
+parcialmente imutável e que não podem conter elementos 
+duplicados. Por ser parcialmente imutável, os sets possuem 
+permissão de adição e remoção de elementos'''
+
 pages = set()
-contagem = 0
+
 def getLinks(url):
-    global pages, contagem
+    global pages
     html = requests.get(f'http://en.wikipedia.org{url}', allow_redirects=True) #Permitindo o redirecionamento
     bs = BeautifulSoup(html.content, 'html.parser')
 
