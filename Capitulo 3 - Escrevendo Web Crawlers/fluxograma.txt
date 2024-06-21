@@ -1,0 +1,4 @@
+Esboçar ou criar diagramas sobre o que o código deverá fazer antes de
+escrevê-lo é um excelente hábito a ser adquirido, e que pode fazer você
+economizar bastante tempo e evitar frustrações à medida que seus crawlers
+se tornarem mais complicados.

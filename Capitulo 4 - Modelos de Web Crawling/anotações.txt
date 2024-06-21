@@ -1,0 +1,30 @@
+Embora as aplicações dos web crawlers sejam quase ilimitadas, crawlers
+grandes e escaláveis tendem a se enquadrar em um de diversos padrões. Ao
+conhecer esses padrões e reconhecer as situações em que eles se aplicam,
+podemos melhorar bastante a manutenibilidade e a robustez dos web
+crawlers.
+
+Uma das melhores atitudes que podem ser tomadas ao decidir quais dados
+devem ser coletados muitas vezes é ignorar totalmente os sites. Não
+comece um projeto previsto para ser grande e escalável observando um
+único site e dizendo “O que é que existe?”, mas pergunte “O que é que eu
+preciso?”, e então encontre maneiras de buscar as informações necessárias
+a partir daí.
+
+Diante de um novo projeto, pode ser tentador mergulhar de cabeça e
+começar a escrever código Python para coletar dados dos sites
+imediatamente. O modelo de dados, deixado para ser pensado depois,
+muitas vezes passa a ser fortemente influenciado pela disponibilidade e
+pelo formato dos dados coletados no primeiro site, modelo de dados é 
+a base para todo o código que o utilize.
+
+É essencial pensar seriamente e planejar quais são, exatamente, os dados
+que devemos coletar e como devemos armazená-los.
+
+                            IMPORTANTE
+                                 |
+                                 |
+                                 V 
+Embora o assunto “produtos e preços” pareça específico demais, as
+perguntas básicas que você deve fazer a si mesmo, e a lógica usada ao fazer
+o design de seus objetos Python, se aplicam a quase todas as situações.
