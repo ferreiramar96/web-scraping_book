@@ -76,3 +76,5 @@ crawler.parse(websites[2], 'https://www.brookings.edu/blog/'\
 'techtank/2016/03/01/idea-to-retire-old-methods-of-policy-education/')
 crawler.parse(websites[3], 'https://www.nytimes.com/2018/01/'\
 '28/business/energy-environment/oil-boom.html')
+
+print(websites)
